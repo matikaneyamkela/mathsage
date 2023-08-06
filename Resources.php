@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>www.mathsage.resources/page.ac.za</title>
+</head>
+<body>
+    <!------page header----------->
+    <?php
+       include("header.php");
+    ?>
+
+    <!----------Page content---------------------------------------------->
+    <div class="resource-content">
+
+
+<!----------------logout button------------------------------>
+        <h1>Mathsage Learning Material</h1>
+    <hr>
+        <br>
+        <!-------------display users name which is currently in the page----------------->
+        <p>Hello, students </p>
+  
+        <br>
+        <!--------------------welcome message----------------------------------->
+        <p>Welcome to the Mathsage Learning Material! We are delighted to provide 
+            you with a diverse collection of resources dedicated to the fascinating world of mathematics. 
+            This page aims to cater to both students and enthusiasts, offering a rich array of learning 
+            materials to deepen your understanding of various mathematical concepts.
+            From algebra and geometry to calculus and statistics, our comprehensive coverage 
+            of topics will empower you to explore the beauty and logic behind numbers and equations. 
+            Whether you're looking to improve your academic performance or simply curious to delve into 
+            the realm of mathematics, our collection holds 
+            valuable resources to help you along your learning journey.</p>
+
+    <br>
+      <hr>
+    <br>
+          <p>Feel free to dive into the different sections and explore the vast landscape of mathematical knowledge. 
+            Our hope is that this learning material will inspire your curiosity and provide you with insights that 
+            enrich your understanding of this fascinating field.
+            Together, let's embark on this mathematical journey and uncover the wonders of 
+            numbers and patterns! Happy learning!</p>
+            <br>
+
+            <!-----------------siyavula textbook online--------------------------------->
+            <br><br>
+            <div class="siyavula-textbook">
+
+        <div style="border: 1px solid green;padding:7px; border-radius:15px;">
+            <h3>Siyavula Online Grade 10</h3>
+              <a href="https://www.siyavula.com/read/za/mathematics/grade-10">Click Here</a>
+        </div>
+
+        <div  style="border: 1px solid green;padding:7px ;  border-radius:15px;">
+            <h3>Siyavula Online Grade 11</h3>
+              <a href="https://www.siyavula.com/read/za/mathematics/grade-11">Click Here</a>
+        </div>
+              <br>
+
+        <div  style="border: 1px solid green;padding:7px;  border-radius:15px;">
+            <h3>Siyavula Online Grade 12</h3>
+              <a href="https://www.siyavula.com/read/za/mathematics/grade-12">Click Here</a>
+        </div>
+            </div>
+    </div>
+
+    <!---------------------------------------grade 10---------------------------------------->    
+    <div class="grade-container">
+     <h3 style="text-align: center;">Hello Grade 10 Learners</h3>
+       <div class="row">
+
+        <div class="col1">
+            <h5>Algrebra:</h5>
+
+                <a href=""><li>Simplifying expressions</li></a>
+                <a href=""><li>Expanding expressions</li></a>
+                <a href=""><li>Factorizing expressions</li></a>
+                <a href=""><li>Solving linear equations</li></a>
+                <a href=""><li>Solving quadratic equations</li></a>
+                <a href=""><li>Solving simultaneous equations</li></a>
+                <a href=""><li>Solving linear inequalities</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+                <h5>Analytical geometry:</h5>
+                   <a href=""><li>Midpoint formula</li></a>
+                   <a href=""><li>Distance formula</li></a>
+                   <a href=""><li>Gradient of a line</li></a>
+                   <a href=""><li>Equation of a straight line</li></a>
+                   <a href=""><li>Parallel and perpendicular lines</li></a>
+
+                   <br>
+                   <hr color="green">
+                   <br>
+                   <h5>Exponents and surds:</h5>
+
+                   <a href=""><li>Laws of exponents</li></a>
+                   <a href=""><li>Simplifying expressions with exponents</li></a>
+                   <a href=""><li>Rational exponents</li></a>
+                   <a href=""><li>Operations with surds</li></a>
+        </div>
+
+
+        <div class="col2">
+            <h5>Trigonometry</h5>
+
+            <a href=""><li>Trigonometric ratios (sine, cosine, tangent)</li></a>
+            <a href=""><li>Solving right-angled triangles</li></a>
+            <a href=""><li>The unit circle</li></a>
+            <a href=""><li>Trigonometric graph</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+            <h5>Number patterns and sequences:</h5>
+            <a href=""><li>Arithmetic sequences</li></a>
+            <a href=""><li>Geometric sequences</li></a>
+            <a href=""><li>Recursive sequences</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+              <h5>Euclidean geometry:</h5>
+               <a href=""><li>Properties of triangles and quadrilaterals</li></a>
+               <a href=""><li>Congruency and similarity of triangles</li></a>
+               <a href=""><li>Pythagorean theorem and its applications</li></a>
+               <a href=""><li>Circles and their properties</li></a>
+
+               <br>
+               <hr color="green">
+                <br>
+                <h5>Finance, growth, and decay:</h5>
+                  <a href=""><li>Simple interest and compound interest</li></a>
+                  <a href=""><li>Depreciation and appreciation</li></a>
+                  <a href=""><li>Exponential growth and decay</li></a>
+        </div>
+
+        <div class="col3">
+
+             <h5>Functions and graphs</h5>
+               <a href=""><li>Understanding functions</li></a>
+               <a href=""><li>Linear graphs</li></a>
+               <a href=""><li>Quadratic graphs</li></a>
+               <a href=""><li>Exponential functions</li></a>
+               <a href=""><li>Graphing linear functions</li></a>
+               <a href=""><li>Graphing quadratic functions</li></a>
+               <a href=""><li>Interpreting graphs of functions</li></a>
+               <a href=""><li>Transformation of graphs</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+            <h5>Statistics and probability:</h5>
+               <a href=""><li>Data collection and presentation</li></a>
+               <a href=""><li>Measures of central tendency (mean, median, mode)</li></a>
+               <a href=""><li>Measures of dispersion (range, interquartile range, standard deviation)</li></a>
+               <a href=""><li>Probability concepts and calculations</li></a>
+               <a href=""><li>Probability distributions (discrete and continuous)</li></a>
+        </div>
+       </div> 
+
+       <div class="recomanded-books">
+            <h6>Recomanded Textbooks</h6>
+             
+            <a href=""><li>Oxford Successful Mathematics Grade 10 Learner's Book <em>by A. Adonis, J. Jinabhai, and F. Majiet</em></li></a>
+            <a href=""><li>Study & Master Mathematics Grade 10 Learner's Book <em> by D. du Plessis, M. Farao, and D. Marchant</em></li></a>
+            <a href=""><li>Platinum Mathematics Grade 10 Learner's Book <em>by L. Beech, P. Constant, and E. Witte</em></li></a>
+            <a href=""><li>Focus on Mathematics Grade 10 Learner's Book <em>by C. Botha and J. Dodds</em></li></a>
+            <a href=""><li>Via Afrika Mathematics Grade 10 Learner's Book" <em>by S. Christie, J. du Plessis, and D. Pretorius</em></li></a>
+             
+            <br>
+            <p>These textbooks are designed to align with the South African Grade 10 mathematics curriculum and the CAPS requirements. They usually cover the essential 
+                topics and provide exercises and examples to reinforce the concepts learned. 
+                Before purchasing any textbook, I recommend checking with your school or 
+                teacher to ensure that the book aligns with their specific curriculum and 
+                teaching preferences. Additionally, you may want to read reviews and compare the content of different 
+                textbooks to find one that best suits your learning style and needs.</p>
+      
+    </div>
+    </div>
+
+
+         <!---------------------------------------grade 11---------------------------------------->    
+    <div class="grade-container">
+     <h3 style="text-align: center;">Hello Grade 11 Learners</h3>
+       <div class="row">
+
+        <div class="col1">
+            <h5>Algrebra:</h5>
+                <a href=""><li>Algebraic expressions and simplification</li></a>
+                <a href=""><li>Algebraic expressions and simplification</li></a>
+                <a href=""><li>Solving quadratic equations</li></a>
+                <a href=""><li>Exponents and radicals</li></a>
+                <a href=""><li>Factorization</li></a>
+                <a href=""><li>Manipulating and solving inequalities</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+            <h5>Probability:</h5>
+                <a href=""><li>Probability concepts and calculations</li></a>
+                <a href=""><li>Independent and dependent events</li></a>
+                <a href=""><li>Conditional probability</li></a>
+                
+        </div>
+
+
+        <div class="col2">
+            <h5>Trigonometry</h5>
+
+               <a href=""><li>Trigonometric ratios (sine, cosine, tangent)</li></a>
+               <a href=""><li>Solving right-angled triangles</li></a>
+               <a href=""><li>Trigonometric identities and equations</li></a>
+               <a href=""><li>Applications of trigonometry</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+               <h5>Functions:</h5>
+               <a href=""><li>Introduction to functions</li></a>
+               <a href=""><li>Linear functions and graphs</li></a>
+               <a href=""><li>Quadratic functions and graphs</li></a>
+               <a href=""><li>Exponential functions and graphs</li></a>
+               <a href=""><li>Transformation of functions</li></a>
+        </div>
+
+        <div class="col3">
+
+             <h5>Coordinate Geometry:</h5>
+               <a href=""><li>Cartesian coordinates</li></a>
+               <a href=""><li>Slope of a line</li></a>
+               <a href=""><li>Equations of lines</li></a>
+               <a href=""><li>Distance and midpoint formula</li></a> 
+
+            <br>
+            <hr color="green">
+            <br>
+              <h5>Statistics:</h5>
+               <a href=""><li>Data collection and organization</li></a>
+               <a href=""><li>Measures of central tendency (mean, median, mode)</li></a>
+               <a href=""><li>Measures of dispersion (range, variance, standard deviation)</li></a>
+               <a href=""><li>Probability distributions</li></a>
+        </div>
+       </div> 
+       
+       <div class="recomanded-books">
+            <h6>Recomanded Textbooks</h6>
+            <a href=""><li>Oxford Successful Mathematics Grade 11 Learner's Book <em>by A. Adonis, J. Jinabhai, and F. Majiet</em></li></a>
+            <a href=""><li>Study & Master Mathematics Grade 11 Learner's Book <em>by D. du Plessis, M. Farao, and D. Marchant</em></li></a>
+            <a href=""><li>Platinum Mathematics Grade 11 Learner's Book <em>by L. Beech, P. Constant, and E. Witte</em></li></a>
+            <a href=""><li>Focus on Mathematics Grade 11 Learner's Book <em>by C. Botha and J. Dodds</em></li></a>
+            <a href=""><li>Via Afrika Mathematics Grade 11 Learner's Book <em>by S. Christie, J. du Plessis, and D. Pretorius</em></li></a>
+            
+            <br>
+            <p>These textbooks are designed to align with the South African Grade 11 mathematics curriculum and the CAPS requirements. They typically cover the essential topics and provide 
+                exercises and examples to reinforce the concepts learned. Before purchasing any textbook, I recommend checking with your school or teacher to ensure that the book aligns with their specific curriculum and teaching preferences. Additionally, you may want to read reviews and compare the content of different textbooks 
+                to find one that best suits your learning style and needs.</p>
+         </div>
+    </div>
+
+         <!---------------------------------------grade 12---------------------------------------->    
+    <div class="grade-container">
+     <h3 style="text-align: center;">Hello Grade 12 Learners</h3>
+       <div class="row">
+
+        <div class="col1">
+            <h5>Algebra and Number:</h5>
+                <a href=""><li>Complex numbers</li></a>
+                <a href=""><li>Polynomials and their properties</li></a>
+                <a href=""><li>Remainder and factor theorems</li></a>
+                <a href=""><li>Solving equations and inequalities</li></a>
+                <a href=""><li>Sequences and series</li></a>
+                <a href=""><li>Mathematical induction</li></a>
+                <a href=""><li>Logarithms and exponentials</li></a>
+                <a href=""><li>Financial mathematics and applications</li></a>
+
+            <br>
+            <hr color="green">
+            <br>
+                <h5>Functions and Graphs:</h5>
+                    <a href=""><li>Polynomial Functions</li></a>
+                    <a href=""><li>Rational Functions</li></a>
+                    <a href=""><li>Exponential and Logarithmic Functions</li></a>
+                    <a href=""><li>Inverse Functions</li></a>
+                    <a href=""><li>Composite Functions</li></a>
+                    <a href=""><li>Applications of Functions</li></a>
+
+        </div>
+
+
+        <div class="col2">
+            <h5>Calculus:</h5>
+                    <a href=""><li>Differentiation (first principles, rules of differentiation)</li></a>
+                    <a href=""><li>Applications of differentiation (rates of change, gradients, optimization)</li></a>
+                    <a href=""><li>Integration (indefinite and definite)</li></a>
+                    <a href=""><li>Applications of integration (area under curves, accumulation, displacement)</li></a>
+
+                        
+            <br>
+            <hr color="green">
+            <br>
+                <h5>Analytical Geometry:</h5>
+                    <a href=""><li>Equation of a circle</li></a>
+                    <a href=""><li>Parabolas, hyperbolas, and ellipses</li></a>
+                    <a href=""><li>Tangents and normals to curves</li></a>
+                    <a href=""><li>Intersection of curves</li></a>
+                    <a href=""><li>Analytical geometry in three dimensions</li></a>
+        </div>
+
+        <div class="col3">
+             <h5>Probability and Statistics:</h5>
+                    <a href=""><li>Probability concepts and calculations</li></a>
+                    <a href=""><li>Probability distributions (binomial, normal, Poisson)</li></a>
+                    <a href=""><li>Sampling and sampling distributions</li></a>
+                    <a href=""><li>Estimation and hypothesis testing</li></a>
+
+
+                                 
+            <br>
+            <hr color="green">
+            <br>
+                  <h5>Analytical Geometry of 3D:</h5>
+                    <a href=""><li>Vectors and their properties</li></a>
+                    <a href=""><li>Scalar product and vector equations</li></a>
+                    <a href=""><li>Angle between vectors and lines</li></a>
+                    <a href=""><li>Equations of lines and planes in 3D space</li></a>
+        </div>
+       </div> 
+       
+       <div class="recomanded-books">
+            <h6>Recomanded Textbooks</h6>
+        
+            <a href=""><li>Oxford Successful Mathematics Grade 12 Learner's Book <em>by A. Adonis, J. Jinabhai, and F. Majiet</em></li></a>
+            <a href=""><li>Study & Master Mathematics Grade 12 Learner's Book <em>by D. du Plessis, M. Farao, and D. Marchant</em></li></a>
+            <a href=""><li>Platinum Mathematics Grade 12 Learner's Book <em> by L. Beech, P. Constant, and E. Witte</em></li></a>
+            <a href=""><li>Mind Action Series Mathematics Grade 12 Textbook <em>by B. Botha, M. Els, and L. Lane</em></li></a>
+            <a href=""><li>Via Afrika Mathematics Grade 12 Learner's Book <em> by S. Christie, J. du Plessis, and D. Pretorius</em></li></a>
+            
+
+            <br>
+            <p>These textbooks are designed to align with the South African Grade 12 mathematics curriculum and the CAPS requirements. They typically cover the essential topics and 
+                provide exercises and examples to reinforce the concepts learned. Before purchasing any textbook, I recommend checking with your school or teacher to ensure that the book aligns with their specific curriculum and teaching preferences. Additionally, you may want to read reviews and compare the content of different 
+                textbooks to find one that best suits your learning style and needs.
+            </p>
+            <a href="signup.php">Click Here to join our community</a>
+
+             <br><br>
+             <!-----------------Playstore apps links textbook online--------------------------------->
+             <h4 style="text-align: center; color:green;">Recomanded Mobile Application</h4>
+             <br><br>
+            <div class="siyavula-textbook">
+
+        <div style="border: 1px solid green;padding:7px; border-radius:15px;">
+            <h3>Grade 10 Mathematics Mobile App</h3>
+              <a href="https://play.google.com/store/apps/details?id=za.co.jsdtsolutions.grade10mathematicsmobileapplication&hl=en&gl=US">Click Here</a>
+        </div>
+
+        <div  style="border: 1px solid green;padding:7px ;  border-radius:15px;">
+            <h3>Grade 11 Mathematics Mobile App</h3>
+              <a href="https://play.google.com/store/apps/details?id=za.co.jsdtsolutions.grade11mathematicsmobileapplication&hl=en&gl=US">Click Here</a>
+        </div>
+              <br>
+
+        <div  style="border: 1px solid green;padding:7px;  border-radius:15px;">
+            <h3>Grade 10 Mathematics Mobile App</h3>
+              <a href="https://play.google.com/store/apps/details?id=com.phonegap.Maths_G12_By_Tshepo&hl=en_ZA&gl=US&pli=1">Click Here</a>
+        </div>
+            </div>
+    </div>
+         </div>
+     </div>
+</body>
+</html>
