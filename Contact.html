@@ -1,53 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.conatctus.mathsage.ac.za</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Appearence.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<style>
+  body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: green;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .navbar {
+    background-color: green;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0; /* Position the navbar at the top */
+    left: 0;
+    width: 100%;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .navbar a.active {
+    background-color: white; /* Change background color for active link */
+    color: green;
+    border-radius: 5px;
+  }
+</style>
 </head>
-    
 <body>
-    <!------------------page header----------------------->
-   <header>
-        <div>
-            <h3 style="color:orange;">MathSage</h3>
-        </div>
-        <div>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="services.html">Services</a>
-        </div>
-    </header>
-
-
-    <div class="contact-header">
-        <h1>Connect With Us</h1>
-     <div class="contact">
-
-            <p style="text-align:center;">All fields with <span style="font-size: 25px;;color:red;">
-            *</span> are require!!</p>
-
-        <form action="" method="post">
-            <input type="text" name="sender-name" placeholder="Full Names...*" required class="details"><br>
-            <input type="email" name="Email" placeholder="Email Address...*" required class="details"><br>
-            <input type="text" name="subject" placeholder="Message Subject (i.e Unable to register) *" required class="details"><br>
-            <label for="message" class="details">Message</label><br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message here...*" required></textarea><br>
-            <button class="send-message" name="submit">Send Message</button><br>
-        </form>
-     </div>
-
-     <div class="contact">
-        <div class="icons">
-            <a href="https://wa.me/27796849184" target="_blank"><i class="fa fa-whatsapp"></i>-WhatsApp</a>
-            <a href="tel:0796849184"><i class="fa fa-phone-square"></i>- Call Us</a>
-            <a href="mailto:mayammatikane@gmail.com"><i class="fa fa-envelope-o"></i>- Email</a>
-            <a href=""><i class="fa fa-facebook">- Facebook</i></a>
-        </div>
-     </div>
+<div class="container">
+  <h1>Contact Us</h1>
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
     </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <div class="button-container">
+      <button type="submit" class="button">Submit</button>
+    </div>
+  </form>
+</div>
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="tel:+123456789">Call</a>
+  <a href="mailto:contact@example.com">Email</a>
+  <a href="https://wa.me/123456789">WhatsApp</a>
+</div>
+<script>
+  const form = document.getElementById('contact-form');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+    // Add your email sending logic here
+    alert('Message sent successfully!');
+  });
+</script>
 </body>
 </html>
