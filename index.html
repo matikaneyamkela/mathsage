@@ -1,35 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>MathSage - Learn Math with Ease</title>
-     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="Appearence.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MathSage - Home</title>
+<style>
+  body {
+    background-color: #f4f4f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  .header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .feature {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .feature h2 {
+    color: green;
+  }
+  .button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .getstarted{
+       
+       width: 90%;
+       margin: 10PX 5%;
+       background-color: green;
+       padding: 10px;
+       color: rgb(212, 204, 204);
+      
+       border-radius: 25px;
+       border: none;
+       font-weight: 600;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    color: white;
+  }
 
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+
+      h1{
+        font-size: 25px;
+      }
+  }
+</style>
 </head>
-    <header>
-        <div>
-            <h3 style="color:orange;">MathSage</h3>
-        </div>
-        <div>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="services.html">Services</a>
-        </div>
-    </header>
 <body>
-    <div class="container">
-        <div class="green-box">
-            <div class="logo">MathSage</div>
-            <div class="tagline">Learn Math with Ease</div>
-            <div class="message">
-                Master math concepts and unlock your potential.
-            </div>
-            <div class="welcome-paragraph">
-                Welcome to MathSage, your ultimate destination for hassle-free math learning. Whether you're a student looking to excel in your math courses or an enthusiast eager to sharpen your mathematical skills, MathSage provides a comprehensive and engaging learning experience. Our expertly crafted lessons and interactive exercises ensure that you'll grasp even the most complex concepts with ease. Join us on this exciting journey of mathematical discovery!
-            </div>
-            <a href="Resources.html" class="cta-button">Get Started</a>
-        </div>
+<div class="header">
+  <h1>Welcome to MathSage</h1>
+  <p>Your Math Problem Solver</p>
+  <p><a href="#getstarted">Scroll down, PLease</a></p>
+</div>
+<div class="container">
+  <div class="intro">
+    <h2 style="color: green;">Why Choose MathSage?</h2>
+    <p>We are dedicated to making math learning and problem-solving an enjoyable experience for all.</p>
+  </div>
+  <div class="features">
+    <div class="feature">
+      <h2>Interactive Lessons</h2>
+      <p>Engaging lessons and quizzes that make learning math fun.</p>
     </div>
+    <div class="feature">
+      <h2>Expert Tutors</h2>
+      <p>Connect with experienced tutors for personalized assistance.</p>
+    </div>
+    <div class="feature">
+      <h2>Quick Solutions</h2>
+      <p>Get instant solutions to your math problems.</p>
+    </div>
+  </div>
+</div>
+                   <a href="About.html" id="getstarted">><button class="getstarted">Get Started</button></a>
+<div class="footer">
+  <p>© 2023 MathSage. All rights reserved.</p>
+</div>
 </body>
 </html>
